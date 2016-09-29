@@ -2,7 +2,7 @@ package us.fredb.projectspace;
 
 public class MemoryAtom extends Atom {
 	
-	private int Id;
+	private String Id;
 	private String Key;
 	
 	private float XPos;
@@ -19,12 +19,12 @@ public class MemoryAtom extends Atom {
 	
 
 	@Override
-	public int GetId() {
+	public String GetId() {
 		return this.Id;
 	}
 
 	@Override
-	public void SetId(int id) {
+	public void SetId(String id) {
 		this.Id = id;
 	}
 

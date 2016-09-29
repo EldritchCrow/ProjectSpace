@@ -12,12 +12,12 @@ public abstract class Atom {
 	/**
 	 * @return The unique ID of this Atom
 	 */
-	public abstract int GetId();
+	public abstract String GetId();
 	/**
 	 * Should rarely be called.
 	 * @param id The new unique ID.
 	 */
-	public abstract void SetId(int id);
+	public abstract void SetId(String id);
 	
 	/**
 	 * Should rarely be called.

@@ -14,10 +14,10 @@ public abstract class Physics {
 	public abstract Atom[] GetAllAtoms();
 	
 	/**
-	 * Returns an atom by it's integer id.
+	 * Returns an atom by it's id.
 	 * @param id The id of the atom
 	 * @return The atom with the id.
 	 */
-	public abstract Atom GetAtomById(int id);
+	public abstract Atom GetAtomById(String id);
 
 }
