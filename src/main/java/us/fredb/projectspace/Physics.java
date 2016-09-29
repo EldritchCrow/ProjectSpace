@@ -19,5 +19,11 @@ public abstract class Physics {
 	 * @return The atom with the id.
 	 */
 	public abstract Atom GetAtomById(String id);
+	
+	/**
+	 * Adds an atom to the physics system
+	 * @param atom The atom to add
+	 */
+	public abstract void AddAtom(Atom atom);
 
 }
