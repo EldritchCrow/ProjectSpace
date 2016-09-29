@@ -16,7 +16,7 @@ public abstract class Physics {
 	/**
 	 * Returns an atom by it's id.
 	 * @param id The id of the atom
-	 * @return The atom with the id.
+	 * @return The atom or null if not found.
 	 */
 	public abstract Atom GetAtomById(String id);
 	
