@@ -8,7 +8,7 @@ public class AtomTests extends TestCase {
 	 * Test that atoms can be instantiated.
 	 */
 	public void testAtomCreation() {
-		Atom testAtom = new MemoryAtom();
+		Atom testAtom = AtomBuilder.Get().Build();
 		assertNotNull(testAtom);
 	}
 	
@@ -16,7 +16,7 @@ public class AtomTests extends TestCase {
 	 * Test that the update methods moves the object appropriately.
 	 */
 	public void testAtomsUpdate() {
-		Atom testAtom = new MemoryAtom();
+		Atom testAtom = AtomBuilder.Get().Build();
 		testAtom.SetXAcc(1F);
 		
 		//Do update
