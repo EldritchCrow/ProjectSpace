@@ -25,5 +25,10 @@ public abstract class Physics {
 	 * @param atom The atom to add
 	 */
 	public abstract void AddAtom(Atom atom);
+	
+	public void Raycast(Atom source, float[] relDirs, float dist)
+	{
+		
+	}
 
 }
